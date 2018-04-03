@@ -72,4 +72,14 @@
     });
   });
 
+  // Enable popovers everywhere
+	$(function () {
+		$('[data-toggle="popover"]').popover()
+	})
+	
+	// Dismiss popovers on next click
+	$('.popover-dismiss').popover({
+	  trigger: 'focus'
+	})
+	
 })(jQuery); // End of use strict
