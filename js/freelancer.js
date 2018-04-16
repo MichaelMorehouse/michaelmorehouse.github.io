@@ -74,7 +74,7 @@
 
   // Enable popovers everywhere
 	$(function () {
-		$('[data-toggle="popover"]').popover()
+		$('[data-toggle="popover"]').popover({html:true})
 	})
 	
 	// Dismiss popovers on next click
